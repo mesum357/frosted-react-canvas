@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-import northexLogo from '@/assets/northex-logo.jpeg';
+import nordexLogo from '@/assets/nordex-logo.png';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,14 +32,13 @@ const Navigation = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'glass-panel shadow-lg' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'glass-panel shadow-lg' : 'bg-transparent'
+        }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <Link to="/" className="flex items-center">
-            <img src={northexLogo} alt="Northex logo" className="h-10 w-auto" />
+            <img src={nordexLogo} alt="Nordex logo" className="h-40 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -48,15 +47,13 @@ const Navigation = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-medium transition-all duration-300 hover:text-primary relative group ${
-                  location.pathname === link.path ? 'text-primary' : 'text-foreground'
-                }`}
+                className={`text-sm font-medium transition-all duration-300 hover:text-primary relative group ${location.pathname === link.path ? 'text-primary' : 'text-foreground'
+                  }`}
               >
                 {link.name}
                 <span
-                  className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-primary to-secondary transition-all duration-300 ${
-                    location.pathname === link.path ? 'w-full' : 'w-0 group-hover:w-full'
-                  }`}
+                  className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-primary to-secondary transition-all duration-300 ${location.pathname === link.path ? 'w-full' : 'w-0 group-hover:w-full'
+                    }`}
                 />
               </Link>
             ))}
@@ -95,9 +92,8 @@ const Navigation = () => {
                 >
                   <Link
                     to={link.path}
-                    className={`block text-lg font-medium transition-colors ${
-                      location.pathname === link.path ? 'text-primary' : 'text-foreground hover:text-primary'
-                    }`}
+                    className={`block text-lg font-medium transition-colors ${location.pathname === link.path ? 'text-primary' : 'text-foreground hover:text-primary'
+                      }`}
                   >
                     {link.name}
                   </Link>

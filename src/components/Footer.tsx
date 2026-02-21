@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from 'lucide-react';
-import northexLogo from '@/assets/northex-logo.jpeg';
+import nordexLogo from '@/assets/nordex-logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <img src={northexLogo} alt="Northex logo" className="h-10 w-auto mb-4" />
+            <img src={nordexLogo} alt="Nordex logo" className="h-40 w-auto mb-4" />
             <p className="text-muted-foreground mb-4">
               Empowering businesses with innovative technology solutions.
             </p>
