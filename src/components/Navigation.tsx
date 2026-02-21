@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import northexLogo from '@/assets/northex-logo.jpeg';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,8 +38,8 @@ const Navigation = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
-          <Link to="/" className="text-2xl font-bold text-gradient">
-            TechZonic
+          <Link to="/" className="flex items-center">
+            <img src={northexLogo} alt="Northex logo" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

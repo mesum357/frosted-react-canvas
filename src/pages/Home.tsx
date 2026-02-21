@@ -120,7 +120,7 @@ const Home = () => {
               className="text-center mb-16"
             >
               <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-                Why Choose <span className="text-gradient">TechZonic</span>
+                Why Choose <span className="text-gradient">Northex</span>
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                 We deliver exceptional value through innovation, reliability, and unwavering commitment to your success.
