@@ -89,8 +89,8 @@ export default {
           "100%": { transform: "translateY(0)", opacity: "1" },
         },
         "glow-pulse": {
-          "0%, 100%": { boxShadow: "0 0 20px hsla(174, 72%, 56%, 0.3)" },
-          "50%": { boxShadow: "0 0 40px hsla(174, 72%, 56%, 0.6)" },
+          "0%, 100%": { boxShadow: "0 0 20px hsla(143, 62%, 22%, 0.3)" },
+          "50%": { boxShadow: "0 0 40px hsla(143, 62%, 22%, 0.6)" },
         },
       },
       animation: {
@@ -103,7 +103,7 @@ export default {
         "glow-pulse": "glow-pulse 2s ease-in-out infinite",
       },
       boxShadow: {
-        'glow': '0 8px 32px hsla(174, 72%, 56%, 0.15)',
+        'glow': '0 8px 32px hsla(143, 62%, 22%, 0.15)',
         'card': '0 4px 24px hsla(0, 0%, 0%, 0.1)',
       },
     },

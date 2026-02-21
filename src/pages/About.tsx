@@ -47,7 +47,7 @@ const About = () => {
               className="text-center mb-16"
             >
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
-                About <span className="text-gradient">TechZonic</span>
+                About <span className="text-gradient">Northex</span>
               </h1>
               <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto">
                 We're a team of passionate innovators dedicated to transforming businesses through technology and
@@ -63,7 +63,7 @@ const About = () => {
             >
               <img
                 src={teamImage}
-                alt="TechZonic team collaborating"
+                alt="Northex team collaborating"
                 className="w-full h-[400px] sm:h-[500px] object-cover"
               />
             </motion.div>
@@ -84,7 +84,7 @@ const About = () => {
                   Our <span className="text-gradient">Mission</span>
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  At TechZonic, we believe technology should empower, not complicate. Our mission is to deliver
+                  At Northex, we believe technology should empower, not complicate. Our mission is to deliver
                   innovative solutions that simplify complex challenges and drive meaningful results for businesses of
                   all sizes.
                 </p>

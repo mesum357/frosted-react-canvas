@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from 'lucide-react';
+import northexLogo from '@/assets/northex-logo.jpeg';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold text-gradient mb-4">TechZonic</h3>
+            <img src={northexLogo} alt="Northex logo" className="h-10 w-auto mb-4" />
             <p className="text-muted-foreground mb-4">
               Empowering businesses with innovative technology solutions.
             </p>
@@ -93,14 +94,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={20} className="text-primary flex-shrink-0" />
-                <span className="text-muted-foreground">hello@techzonic.com</span>
+                <span className="text-muted-foreground">hello@northex.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border pt-8 text-center text-muted-foreground">
-          <p>&copy; {currentYear} TechZonic. All rights reserved.</p>
+          <p>&copy; {currentYear} Northex. All rights reserved.</p>
         </div>
       </div>
     </footer>
