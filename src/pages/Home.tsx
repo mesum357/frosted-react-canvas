@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Zap, Shield, TrendingUp, Users } from 'lucide-react';
 import PageTransition from '@/components/PageTransition';
+import TeamSection from '@/components/TeamSection';
 import heroImage from '@/assets/hero-image.jpg';
 
 const Home = () => {
@@ -120,7 +121,7 @@ const Home = () => {
               className="text-center mb-16"
             >
               <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-                Why Choose <span className="text-gradient">Northex</span>
+                Why Choose <span className="text-gradient">nordex</span>
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                 We deliver exceptional value through innovation, reliability, and unwavering commitment to your success.
@@ -147,6 +148,8 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+        <TeamSection />
 
         {/* CTA Section */}
         <section className="py-20 sm:py-32">

@@ -10,7 +10,15 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <img src={nordexLogo} alt="Nordex logo" className="h-40 w-auto mb-4" />
+            <div className="flex items-center gap-2 mb-4">
+              <img
+                src={nordexLogo}
+                alt=""
+                className="h-10 w-auto object-contain brightness-0 invert opacity-95"
+                aria-hidden
+              />
+              <span className="text-white font-bold text-2xl lowercase tracking-tight">nordex</span>
+            </div>
             <p className="text-muted-foreground mb-4">
               Empowering businesses with innovative technology solutions.
             </p>
@@ -94,14 +102,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={20} className="text-primary flex-shrink-0" />
-                <span className="text-muted-foreground">hello@northex.com</span>
+                <span className="text-muted-foreground">info@nordex.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border pt-8 text-center text-muted-foreground">
-          <p>&copy; {currentYear} Northex. All rights reserved.</p>
+          <p>&copy; {currentYear} nordex. All rights reserved.</p>
         </div>
       </div>
     </footer>
