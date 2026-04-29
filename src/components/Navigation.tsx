@@ -37,16 +37,8 @@ const Navigation = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
-          <Link to="/" className="flex items-center gap-2 shrink-0 group">
-            <img
-              src={nordexLogo}
-              alt=""
-              className="h-9 sm:h-10 w-auto object-contain brightness-0 invert opacity-95 group-hover:opacity-100 transition-opacity"
-              aria-hidden
-            />
-            <span className="text-white font-bold text-xl sm:text-2xl lowercase tracking-tight drop-shadow-sm">
-              nordex
-            </span>
+          <Link to="/" className="flex items-center">
+            <img src={nordexLogo} alt="Nordex logo" className="h-40 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
