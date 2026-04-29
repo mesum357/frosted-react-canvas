@@ -1,5 +1,11 @@
 import { motion } from 'framer-motion';
 import { Linkedin } from 'lucide-react';
+// src/assets/team/farasat.jpeg
+// src/assets/team/rizwan.jpeg
+// src/assets/team/raheel.jpeg
+// src/assets/team/shah.jpeg
+// src/assets/team/Gemini_Generated_Image_eon7akeon7akeon7-Picsart-AiImageEnhancer.jpg
+// src/assets/team/yasir.png
 
 import farasatImg from '@/assets/team/farasat.jpeg';
 import rizwanImg from '@/assets/team/rizwan.jpeg';
